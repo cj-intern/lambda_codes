@@ -1,0 +1,45 @@
+{
+    "type": "record",
+    "name": "Items",
+    "namespace": "com.amazonaws.personalize.schema",
+    "fields": [
+        {
+            "name": "ITEM_ID",
+            "type": "string"
+        },
+        {
+            "name": "PRODUCT_NAME",
+            "type": "string"
+        },
+        {
+            "name": "MOISTURE",
+            "type": "int"
+        },
+        {
+            "name": "SENSITIVE_SKIN",
+            "type": "int"
+        },
+        {
+            "name": "TEXTURE",
+            "type": "int"
+        },
+        {
+            "name": "ACNE_CARE",
+            "type": "int"
+        },
+        {
+            "name": "WRINKLE_CARE",
+            "type": "int"
+        },
+        {
+            "name": "CATEGORY_L1",
+            "type": "int",
+            "categorical": true
+        },
+        {
+            "name": "PRICE",
+            "type": "float"
+        }
+    ],
+    "version": "1.0"
+}
