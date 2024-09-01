@@ -1,0 +1,22 @@
+er의 SKIN_TYPE이 2로 갈수록 보습력이 낮아야해.
+2. SENSITIVE는 user와 product가 같을수록 엮어줘.
+3. user의 ACEN가 1일경우 product도 ACNE_CARE가 1이여야 해.
+4. user의 SKIN_TONE이 2일수록, 미백 효과가 있어야 해.
+5. user의 나이가 많을수록 WRINKLE_CARE가 있어야 해.
+6. user가 ACNE가 있거나, 나이가 적으면 ACNE_CARE가 있어야 해.
+
+아래는 숫자가 의미하는 정보야. 
+
+GENDER = {'Male': 0, 'Female': 1}
+SKIN_TYPE = {'Dry': 0, 'Combination': 1, 'Oily': 2}
+SENSITIVE = {'No': 0, 'Yes': 1}
+ACNE = {'No': 0, 'Yes': 1}
+SKIN_TONE = {'Fair': 0, 'Medium': 1, 'Dark': 2}
+AGE = [18, 60]
+
+MOISTURE = (1, 10)  # 보습력 (1: 낮음, 10: 높음)
+SENSITIVE_SKIN = (0, 1)  # 민감 피부 적합 여부 (0: No, 1: Yes)
+TEXTURE = (1, 10)  # 질감 (1: 가벼움, 10: 무거움)
+ACNE_CARE  = (0, 1)  # 여드름 치료 효과 (0: No, 1: Yes)
+WRINKLE_CARE = (0, 1)  # 주름 개선 (0: No, 1: Yes)
+WHITENING = (0, 1) # 미백 효과 (0: NO, 1: Yes)
